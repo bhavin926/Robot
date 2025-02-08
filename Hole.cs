@@ -17,7 +17,6 @@ namespace RobotProgramming
 
         public override bool Handle(Robot robot)
         {
-            // Robot falls into the hole and is transported to the connected location
             robot.MoveTo(ConnectedLocation.x, ConnectedLocation.y);
             return true;
         }
